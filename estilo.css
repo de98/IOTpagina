@@ -1,0 +1,214 @@
+/* Contenedor del login */
+
+#login {
+  background-color: rgba(8, 43, 238, 0.726);
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+  -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  max-width: 20em;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+/* Contenedor de datos */
+
+#datos {
+  background-color: rgba(8, 43, 238, 0.726);
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+  -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  max-width: 25em;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* Etiquetas del formulario */
+
+label {
+  color: white;
+  display: block;
+  margin-bottom: 6px;
+  margin-left: 1.2em;
+  text-align: center;
+}
+
+/* Campos del formulario */
+
+input[type="text"],
+input[type="password"] {
+  border: none;
+  border-radius: 16px;
+  display: block;
+  font-size: 1em;
+  height: 2em;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Botón */
+
+input[type="submit"] {
+  background-color: #A3A0A2;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  display: block;
+  font-size: 1em;
+  height: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: center;
+  width: 110px;
+}
+input[type="reset"] {
+  background-color: #A3A0A2;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  display: block;
+  font-size: 1em;
+  height: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+  width: 110px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: rgb(4, 79, 192);
+  opacity: 0.5;
+  text-align: center;
+}
+input[type="reset"]:hover {
+  cursor: pointer;
+  background-color: rgb(4, 70, 192);
+  opacity: 0.5;
+  text-align: center;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+  color:  white;
+  background-color:  rgb(86, 104, 163);
+}
+
+body{
+  background-color: rgba(8, 43, 238, 0.726);
+}
+h1 , h2, h3{
+  color: white;
+  text-align: center;
+}
+
+table{
+
+  background-color: rgb(10, 44, 238);
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+  -webkit-box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.75);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  max-width: 15em;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+
+}
+
+
+
+
+.boton_1{
+  text-decoration: none;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 25px;
+  font-style: italic;
+  color:  white;
+  background-color:  #A3A0A2;
+  border-radius: 5px;
+  
+}
+.boton_1:hover{
+  opacity: 0.6;
+  text-decoration: none;
+
+  cursor: pointer;
+  background-color: rgb(2, 255, 87);
+  opacity: 1;
+
+}
+
+.boton_2{
+  text-decoration: none;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 25px;
+  font-style: italic;
+  color:  white;
+  background-color:  #A3A0A2;
+  border-radius: 5px;
+  
+}
+.boton_2:hover{
+  opacity: 0.6;
+  text-decoration: none;
+
+  cursor: pointer;
+  background-color: rgba(255, 8, 0, 0.808);
+  opacity: 1;
+
+}
+
+.boton_var{
+  text-decoration: none;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: helvetica;
+  font-weight: 300;
+  font-size: 20px;
+  font-style: italic;
+  color:  rgb(245, 168, 168);
+  background-color:  rgba(163, 160, 162, 0);
+  border-radius: 1px;
+  
+}
+.boton_var:hover{
+  opacity: 0.6;
+  text-decoration: none;
+
+  cursor: pointer;
+  background-color: rgb(35, 137, 168);
+  opacity: 1;
+
+}
